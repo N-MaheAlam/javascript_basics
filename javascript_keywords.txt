@@ -1,0 +1,8 @@
+1.  console.log -    to print something in output/terminal
+
+2.  //  - double slash for comments 
+
+3.  /* inside this will be treated
+
+4.  as a comments, commonly used in most of the programming language
+*/
