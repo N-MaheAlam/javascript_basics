@@ -6,3 +6,42 @@
 
 4.  as a comments, commonly used in most of the programming language
 */
+
+
+5.  to declare a variable in javascript we use var, let, const but we do not
+    use there type such as is it a string or integer, boolean like java. Java-
+    Script automatically recongnise it.
+
+
+6.  var, let, const, So the difference among them is, when a variable needs to 
+    redeclare, we can use var. When we need to reassign we can use let
+    (let a = 5; a = "changed value" == this is called reasign ) and when 
+    value doesn't need to change use const.
+
+7.  number, string, boolean, null, undefined
+
+8.  if ()
+    {
+
+    }
+    else
+    {
+
+    }
+
+9. for (=======)
+    {
+
+    }
+
+10. while ()
+    {
+
+    }
+
+11. do()
+    {
+
+    }while ();
+
+12. =, ==, && (AND- operator), ++, \n, ||(OR-Operator),

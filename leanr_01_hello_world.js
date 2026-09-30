@@ -62,6 +62,14 @@ console.log(null_value_type)
 console.log(typeof(null_value_type))
 
 
+/*
+if you see below code of "age_in_number", first I declared it as a number 
+then I declared it as a string but we learnt that "let" doesn't allow to 
+reassign but here it is possible because first I declared "age_in_number"
+with "let" but 2nd time I just call the variable and assigned with new
+variable. I didn't use "let"
+*/
+
 let age_in_number = 32
 
 console.log(age_in_number);
@@ -70,6 +78,11 @@ console.log(typeof(age_in_number))
 age_in_number = "age is 32"
 console.log(age_in_number);
 console.log(typeof(age_in_number))
+
+// const is used when we donot want to change a variable in our entire project
+// or we can say const variable cannot be reassigned or redeclared 
+const name_real = "N-Mahe Alam"
+console.log(name_real)
 
 
 
