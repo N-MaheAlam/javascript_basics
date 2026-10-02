@@ -45,3 +45,32 @@
     }while ();
 
 12. =, ==, && (AND- operator), ++, \n, ||(OR-Operator),
+
+
+13. break,
+
+14. continue
+
+15. marks = [20,30,40,50,60,70] // array declaration
+
+16. marks[2] // 2nd index value
+
+17. marks.slice (2,5) // make sub array from 2nd index to 4th index 
+
+18. marks. pop // pops from last
+
+19. marks.push // pushed at last
+
+20. marks.indexOf("60")
+
+21. marks. includes("value)
+22. marks.unshift // adding value at first
+
+23. marks.length
+
+24. reduce ( to accumate total elements)
+25. filter ( find the filtered elements and return array)
+26. map ( modify all the values)
+27. sort()
+
+

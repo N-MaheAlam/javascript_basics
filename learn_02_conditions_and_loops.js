@@ -1,28 +1,28 @@
- console.log("****************** if statement printing ***************")
+ console.log("\n****************** if statement printing ***************\n")
 let a = 5
 if( a<10)
 {
-    console.log("{a} is smaller than 10")
+    console.log(a, " is smaller than 10")
 }
 else
 {
     console.log("This will not print")
 }
 
-console.log("****************** else statement printing ***************")
+console.log("\n****************** else statement printing ***************\n")
 let b = false
 
 // this if(b) means if b is true, is some lanuage we use "if(b = true)" like that
 if(b)
 {
-   console.log("This will not print as is not true means false") 
+   console.log("This will not print as is not true, means false") 
 }
 else
 {
     console.log("Else statement printed as, b is false")
 }
 
-console.log("****************** ! (NOT) USING ***************")
+console.log("\n****************** ! (NOT) USING ***************\n")
 //  REMEMBER, here we made the b= false into true by using "!" but the actual
 //  value of "b" is always "false"
 if(!b)
@@ -34,7 +34,7 @@ else
    console.log("Will not be printed") 
 }
 
-console.log("****************** while loop print i ***************")
+console.log("\n****************** while loop print i ***************\n")
 /*
 While loop is used when we match a condition and if it is true then perform
 the code in while block. ONCE we achieve our desire result from 
@@ -57,13 +57,13 @@ while(i<= 10)
 }
 /*
  in while loop when i=11 it stops and it exit from the while loop.
- IN THE , do-while loop what it does, it always first peform the task then check
+ IN THE , do-while loop what it does, it always first peform the task, then check
  with the condition. So, here, this do-while loop, increment i by 1. So,
  the new value is 12 and in prints in the console. After that it checks, condition
  and finds if the i value is smaller and equal to 10 then do again but here the i
  value is 12 and it stops.
 */
-console.log("************** do while loop- print first then perfome while *************")
+console.log("\n*********** do while loop- print first then perfome while *********\n")
 do{
     i++
     console.log("Print new i", i)

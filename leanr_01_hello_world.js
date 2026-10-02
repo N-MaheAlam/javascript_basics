@@ -21,7 +21,7 @@ let b = 543.5665
 console.log(b);
 console.log(typeof(b))
 
-/*Here the variable c is var and below c is var, if we use "let" is "c"
+/*Here the variable c is var and below c is var, if we use "let" in "c"
 it will not accept the new  variable because it is here string and 
 below var c = a+b is a number. So, assaigning something completely new in
 an existing declared variable only possible in javascript if we use "var"
@@ -48,10 +48,11 @@ console.log(required)
 console.log(typeof(required))
 
 // only  boolean value can be changed by using "!" (not) but not any other type
-// Now the value of required in converted to false
+// Now the value of required in presented to false but the actual value is 
+// is the same as above "true"
 console.log((!required))
 
-// Do not think that "!" will change the variable value no, required value is 
+// Do not think that "!" will change the variable value, no, required value is 
 // true but we converted it  into false in the above line.
 console.log(required)
 
